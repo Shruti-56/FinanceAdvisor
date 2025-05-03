@@ -30,6 +30,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class AIChat extends AppCompatActivity {
+    String apiKey = BuildConfig.OPENAI_API_KEY;
 
     RecyclerView recyclerView;
     TextView welcomeTextView;
@@ -108,7 +109,7 @@ public class AIChat extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url("\n" +
                         "https://api.openai.com/v1/chat/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer "+apiKey)
                 .post(body)
                 .build();
 
