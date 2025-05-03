@@ -20,4 +20,4 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/FinanceAdvisor.git
+   git clone https://github.com/Shruti-56/FinanceAdvisor.git
