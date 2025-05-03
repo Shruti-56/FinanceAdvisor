@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splash">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Finance Logo with Shadow -->
+
+
+        <!-- AI Image with Shadow -->
+
+        <!-- Your Finance Advisor Text -->
+
+        <!-- Get Started Button with Rounded Corners and Shadow -->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="2dp"
+            android:layout_y="0dp"
+            android:src="@drawable/start" />
+
+        <Button
+            android:id="@+id/button_btm"
+            android:layout_width="249dp"
+            android:layout_height="62dp"
+            android:layout_margin="20dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_x="66dp"
+            android:layout_y="518dp"
+            android:background="@drawable/app_theme_round_button"
+            android:elevation="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="20sp" />
+    </AbsoluteLayout>
+</RelativeLayout>

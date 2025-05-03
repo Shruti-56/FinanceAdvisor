@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "335184671234",
+    "project_id": "financeadvisor-94552",
+    "storage_bucket": "financeadvisor-94552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335184671234:android:961d8dd88c5dc5bfafed1b",
+        "android_client_info": {
+          "package_name": "com.example.financeadvisor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfXrDp5UuaJ_vjVWL8Zv21bY7QPFQS1qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
